@@ -8,7 +8,7 @@ variable "virtual_network_name" {
 }
 
 variable "address_space" {
-  type        = list(string)
+  type = list(string)
   default = ["10.0.0.0/16"]
 }
 
