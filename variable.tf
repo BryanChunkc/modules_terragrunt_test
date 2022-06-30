@@ -9,3 +9,9 @@ variable "virtual_network_name" {
 
 variable "address_space" {
 }
+
+variable "subnet1" {
+}
+
+variable "subnet2" {
+}
