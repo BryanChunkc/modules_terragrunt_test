@@ -13,10 +13,10 @@ resource "azurerm_virtual_network" "vn" {
     ]
     subnet {
         name = "subnet1"
-        address_prefix = "10.0.1.0/24"
+        address_prefix = var.subnet1
     }
     subnet {
         name = "subnet2"
-        address_prefix = "10.0.2.0/24"
+        address_prefix = var.subnet2
     }
 }
